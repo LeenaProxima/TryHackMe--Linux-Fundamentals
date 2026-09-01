@@ -1,0 +1,48 @@
+Part 1 (NOTE: Exact definitions taken directly from TryHackMe. Credit goes to them.)
+
+Task 1:
+You can pass the first task by just setting up the lab machine. Sufficient details are given on the task details.
+
+Task 2:
+This exercise has to do with your knowledge of the commands whoami and echo.
+whoami: tells you who you are on the system. 
+echo: output some specific text that is provided.
+This means that for the first MCQ (What command would we use to find out who we are on the system?), the answer is whoami, and the answer for the second MCQ 
+(What command would we use to output some text?), is echo.
+
+Task 3:
+If you deployed the lab machine correctly, you should see a terminal panel on the right (or wherever you decided to drag it) side of your screen. For the first
+MCQ (Run ls in the current folder. How many folders are there?), all you have to do is just type ls into the terminal. You will see 4 blue folders, so the
+answer is 4. For the second MCQ (One of those folders contains a file. Which folder is it?), you just have to use the cd command to change directories and
+then use ls again to see the contents of the current folder. THe answer will end up being folder1. For the third and final MCQ (Use cat to read the file 
+within this folder. What does it say?), you need to use the cat command to see the contents of the file passwords.txt, and your answer will end up being
+password123.
+
+Task 4:
+For this task you just need to type the command grep THM access.log. Grep is the command word, which is used to search inside for text. THM is the text we are
+asking the computer to search for. Access.log is the file we are asking the computer to check inside to find the text. The answer will end up being THM{ACCESS}.
+
+Task 5:
+This task is about operators in Linux.
+&: Runs the command, but does not wait for it to finish before you can do anything else. The command runs in the backgorund, and is helpful for commands that 
+might take a while to complete, or ones that you want to keep running.
+&&: Runs both commands, but waits for the first command to finish first, before the next. Like a set of dominoes.
+>: Used to redirect output. We can take the output of a command and send it to a file. This operator will overwrite anything that exists in the file.
+>>: This redirector does the same thing, but instead of overwriting, it will just add the output to the bottom of the file.
+For the first MCQ (What operator waits for the first command to finish before running the next command?), the answer is &&. For the second MCQ (What 
+redirector allows us to save the output of a command without overwriting the contents of a file?), the answer is >>.
+
+
+
+CONGRATS! YOU FINISHED PART ONE!
+
+
+
+
+
+
+
+
+
+
+
