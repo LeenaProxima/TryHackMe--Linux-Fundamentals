@@ -1,0 +1,38 @@
+Task 1:
+Just read and then continue.
+
+Task 2:
+You will type in the ssh command (ssh tryhackme@MACHINE_IP) into the terminal window.
+
+Task 3:
+1st MCQ: Just explore.
+2nd MCQ (What directional arrow key would we use to navigate down the manual page?): down
+3rd MCQ (What flag would we use to display the output in a "human-readable" way?): -h
+
+Task 4:
+1st MCQ (How would you create the file named "newnote"?): touch newnote
+2nd MCQ (On the deployable machine, what is the file type of "unknown1" in "tryhackme's" home directory?): ASCII text
+3rd MCQ (How would we move the file "myfile" to the directory "myfolder"): mv myfile myfolder
+4th MCQ (What are the contents of this file?): THM{FILESYSTEM}
+the MCQ: Continue.
+
+Task 5:
+1st MCQ (On the deployable machine, who is the owner of "important"?): user2
+2nd MCQ (What would the command be to switch to the user "user2"?): su user2
+3rd MCQ: Continue.
+4th MCQ (Output the contents of "important", what is the flag?): THM{SU_USER2}
+
+Task 6:
+1st MCQ: Continue and make sure you read the details.
+2nd MCQ (What is the directory path that would we expect logs to be stored in?): /var/log
+3rd MCQ (What root directory is similar to how RAM on a computer works?): /tmp
+4th MCQ (Name the home directory of the root user): /root
+5th MCQ: Continue.
+
+Task 7 and Task 8:
+REad the details and move on in your journey. Good luck!
+
+
+CONGRATS YOU FINISHED!!!
+
+
